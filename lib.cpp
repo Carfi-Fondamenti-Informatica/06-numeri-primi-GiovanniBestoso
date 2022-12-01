@@ -1,5 +1,5 @@
 
-int primo(int n, int i) {
+bool primo(int n, int i) {
   bool x=true;
   
   if (i!=1) {
