@@ -1,13 +1,15 @@
 #include <iostream>
+#include "lib.h"
 using namespace std;
 
 int main(){
-  int n=0, i=2;
-        cin>>n;
-if(primo(n,i)== true){
-    cout<<"numero primo"<<endl;
-}else if ((primo(n,i)==false)){
-    cout<<"numero non primo"<<endl;
-}
+  int n=0; cin >> n;
+  int i=(n-1);
+
+  if (primo(n,i) == true) {
+    cout << "numero primo";
+  } else if (primo(n,i) == false) {
+    cout << "numero non primo";
+  }
   return 0;
 }
