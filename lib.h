@@ -1,1 +1,5 @@
+#ifndef ESERCITAZIONE6_LIBRERI_H
+#define ESERCITAZIONE6_LIBRERI_H
 
+#endif //ESERCITAZIONE6_LIBRERI_H
+bool primo( int , int );
