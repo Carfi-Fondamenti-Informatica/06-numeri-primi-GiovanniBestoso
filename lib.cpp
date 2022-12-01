@@ -1,9 +1,11 @@
-bool primo( int n, int i){
-    if (n%i==0){
-        return false;
-    }else if (n%i!=0){
-        primo(n,i+1);
+bool primo(int n, int i) {
+    if (i!=1) {
+        if ((n % i) != 0) {
+            i--;
+            x=primo(n, i);
+        } else {
+            return false;
+        }
+    } else {
+        return true;
     }
-
-    return true;
-}
