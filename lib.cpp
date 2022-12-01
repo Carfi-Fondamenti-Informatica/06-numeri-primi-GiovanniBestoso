@@ -1,11 +1,16 @@
-bool primo(int n, int i) {
-    if (i!=1) {
-        if ((n % i) != 0) {
-            i--;
-            x=primo(n, i);
-        } else {
-            return false;
-        }
+
+int primo(int n, int i) {
+  bool x=true;
+  
+  if (i!=1) {
+    if ((n % i) != 0) {
+      m--;
+      x=primo(n, i);
     } else {
-        return true;
+      x=false;
     }
+  } else {
+    x=true;
+  }
+  return x;
+}
