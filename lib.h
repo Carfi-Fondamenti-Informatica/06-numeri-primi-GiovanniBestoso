@@ -1,4 +1,2 @@
 
-
-
 int primo( int , int );
