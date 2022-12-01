@@ -1,4 +1,4 @@
 
 #define ESERCITAZIONE6_LIBRERI_H
 
-bool primo( int , int );
+int primo( int , int );
